@@ -5,10 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.TextView;
 
-public final class ViewUtil {
-
-    private ViewUtil() {
-    }
+public class ViewUtil {
 
     public static String getText(TextView tv) {
         return tv.getText().toString();
